@@ -1,0 +1,19 @@
+{
+  "name": "learning-tailwind",
+  "version": "1.0.0",
+  "description": "I am learning tailwind css framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/heinhtetaung671/learning-tailwind.git"
+  },
+  "author": "Hein Htet Aung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heinhtetaung671/learning-tailwind/issues"
+  },
+  "homepage": "https://github.com/heinhtetaung671/learning-tailwind#readme"
+}
