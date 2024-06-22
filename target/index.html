@@ -11,8 +11,8 @@
 
         <div> <!-- nav go here -->
             <nav>
-                <div>
-                    <h1 class="font-bold uppercase">
+                <div class="p-4">
+                    <h1 class="font-bold uppercase border-b border-gray-100 text-primary text-6xl">
                         <a href="/">Food Ninja</a>
                     </h1>
                 </div>
@@ -36,39 +36,47 @@
             </nav>
         </div><!-- end nav -->
 
-        <main>
+        <main class="px-16 py-12">
 
-            <div>
+            <div >
                 <a href="">Log in</a>
                 <a href="">Sign up</a>
             </div>
 
             <header>
-                <h2 class="text-4xl text-gray-700 font-semibold">Recipes</h2>
+                <h2 class="text-6xl text-gray-700 font-semibold">Recipes</h2>
                 <h3 class="text-xl text-gray-700 font-semibold">For Ninjas</h3>
             </header>
 
             <div>   
-                <h4 class="font-bold">Lasted Recipes</h4>
+                <h4 class="font-bold mt-12 pb-2 border-b">Lasted Recipes</h4>
 
-                <div>
-                    <div><!-- cards go here -->
-                        <img src="" alt="">
-                        <div>
+                <div class="mt-6">
+                    <!-- cards go here -->
+                    <article>
+                        <img src="img/chilli.jpeg" alt="">
+                        <section>
                             <span>Bean Cilli Strew</span>
                             <span>Recipes by Macro</span>
-                        </div>
-                    </div>
+                        </section>
+                    </article>
                 </div>
 
-                <h4 class="font-bold">Most Popular Recipes</h4>
+                <h4 class="font-bold mt-12 pb-2 border-b">Most Popular Recipes</h4>
 
-                <div>
+                <div class="mt-6">
                     <!-- cards go here -->
+                     <article>
+                        <img src="img/red-chilli.jpeg" alt="">
+                        <section>
+                            <span>Red Chillies</span>
+                            <span>Article by Hein Htet Aung.</span>
+                        </section>
+                     </article>
                 </div>
 
                 <div>
-                    <button>Load More</button>
+                    <button class="text-secondary-200 bg-secondary-100">Load More</button>
                 </div>
             </div>
         </main>
