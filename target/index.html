@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body  class="text-gray-600 font-sans">
+<body  class="text-gray-600 font-sans  bg-gray-100">
     <div> <!-- context warpper -->
 
         <div> <!-- nav go here -->
@@ -38,7 +38,7 @@
 
         <main class="px-16 py-12">
 
-            <div >
+            <div class="flex justify-center sm:justify-end gap-2">
                 <a href="">Log in</a>
                 <a href="">Sign up</a>
             </div>
@@ -53,12 +53,14 @@
 
                 <div class="mt-6">
                     <!-- cards go here -->
-                    <article>
-                        <img src="img/chilli.jpeg" alt="">
-                        <section>
-                            <span class="font-playWrite">Bean Cilli Strew</span>
-                            <span>Recipes by Macro</span>
+                    <article class="card">
+                        <img src="img/chilli.jpeg" class="w-full h-32 object-cover sm:h-48" alt="">
+                        <section class="m-4 flex flex-col">
+                            <span class=" font-bold">Bean Cilli Strew</span>
+                            <span class="text-sm text-gray-500">Recipes by Macro</span>
                         </section>
+
+                        <span class="p-2 text-xs bg-secondary-100 text-secondary-200 rounded-full absolute top-2 left-2 uppercase font-semibold">25 mins</span>
                     </article>
                 </div>
 
@@ -66,12 +68,14 @@
 
                 <div class="mt-6">
                     <!-- cards go here -->
-                     <article>
-                        <img src="img/red-chilli.jpeg" alt="">
-                        <section>
-                            <span>Red Chillies</span>
-                            <span>Article by Hein Htet Aung.</span>
+                     <article class="card">
+                        <img src="img/red-chilli.jpeg" class="w-full h-32 sm:h-48 object-cover" alt="">
+                        <section class="m-4 flex flex-col">
+                            <span class="font-bold">Red Chillies</span>
+                            <span class="text-sm text-gray-500">Article by Hein Htet Aung.</span>
                         </section>
+
+                        <span class="text-xs bg-secondary-100 text-secondary-200 absolute top-2 left-2 p-2 rounded-full">15 mins</span>
                      </article>
                 </div>
 
