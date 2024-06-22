@@ -4,7 +4,7 @@
   "description": "I am learning tailwind css framework.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "tailwindcss build -i src/style.css -o target/style.css --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/heinhtetaung671/learning-tailwind/issues"
   },
-  "homepage": "https://github.com/heinhtetaung671/learning-tailwind#readme"
+  "homepage": "https://github.com/heinhtetaung671/learning-tailwind#readme",
+  "dependencies": {
+    "tailwindcss": "^3.4.4"
+  }
 }
